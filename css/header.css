@@ -1,0 +1,50 @@
+.header {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+  margin-top: 30px;
+  flex-wrap: wrap;
+}
+
+.logo {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+  position: relative;
+}
+
+.logo::before {
+  content: "";
+  background-image: url(/imgs/planet.svg);
+  width: 30px;
+  height: 30px;
+  left: -30px;
+  display: inline-block;
+  position: absolute;
+}
+
+.header-list a {
+  color: #adb5bd;
+  font-size: 1.1rem;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+}
+
+.header-list a:hover {
+  color: white;
+}
+
+.header-list ul {
+  display: flex;
+  gap: 70px;
+}
+
+@media (max-width: 500px) {
+  .header {
+    gap: 50px;
+  }
+  .header-list ul {
+    gap: 40px;
+  }
+}

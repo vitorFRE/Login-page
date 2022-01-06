@@ -1,0 +1,89 @@
+main {
+  margin-top: 50px;
+}
+
+.sp {
+  text-transform: uppercase;
+  color: #6c757d;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+
+main h1 {
+  color: white;
+  font: 700 3rem/1.7 "Poppins", sans-serif;
+}
+
+main p {
+  font: 400 1rem/1 Poppins, sans-serif;
+  color: #6c757d;
+}
+
+.form-dados {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+  max-width: max-content;
+}
+
+.form-dados label {
+  display: block;
+  color: white;
+  font: 400 1rem/1.5 Poppins, sans-serif;
+  margin-bottom: 4px;
+}
+
+.form-dados input {
+  font: 400 1rem/1.5 Poppins, sans-serif;
+  background: #495057;
+  padding: 10px;
+  border-radius: 12px;
+  width: 100%;
+  border: 1px solid #495057;
+  box-sizing: border-box;
+}
+
+.form-dados input:focus {
+  border: 1px solid #580aff;
+  background: #343a40;
+  box-shadow: 0 0 0 2px #3a86ff;
+}
+
+.tt {
+  grid-column: 1/-1;
+}
+
+button {
+  padding: 16px 32px;
+  border-radius: 20px;
+  color: white;
+  background-color: #6c757d;
+  font: 500 1rem/1.35 Poppins, sans-serif;
+}
+
+button:hover {
+  background-color: #495057;
+}
+
+.btn-sec {
+  margin-left: 20px;
+  background-color: #3a86ff;
+}
+
+.btn-sec:hover {
+  background-color: #580aff;
+}
+
+@media (max-width: 500px) {
+  button {
+    margin-bottom: 20px;
+    padding: 18px;
+    font-size: 0.8rem;
+  }
+  main h1 {
+    font-size: 2.5rem;
+    line-height: 1.2;
+  }
+}
