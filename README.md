@@ -5,5 +5,5 @@
     </a>
 
 <p align="center">
-  <img src="/Print.png" title="Print">
+  <img src="/print.png" title="Print">
 </p>
